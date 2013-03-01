@@ -46,7 +46,7 @@ Y.DatePicker.prototype.createPopup = function () {
 
 Y.DatePicker.prototype.createFormElements = function () {
     this.input = Y.one(this.args.input);
-    this.calendarLauncher = Y.Node.create('<button/>');
+    this.calendarLauncher = Y.Node.create('<input type="button"/>');
     if (this.args.btnClass)
         this.calendarLauncher.addClass(this.args.btnClass);
     if (this.args.btnContent)
