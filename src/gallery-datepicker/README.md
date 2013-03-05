@@ -1,8 +1,10 @@
-NAME
+gallery-datepicker
+==================
 
 YUI3 Date Picker - A calendar popup for date input form elements
 
 SYNOPSIS
+========
 
     <script src="http://yui.yahooapis.com/3.8.1/build/yui/yui-min.js"></script>
     <script src="datepicker.js"></script>
@@ -14,6 +16,7 @@ SYNOPSIS
     </script>
 
 ARGUMENTS
+=========
 
 - input (String|Node): The date input field to transform. Required.
 
@@ -33,6 +36,7 @@ field. The date can be picked in the calendar popup, and the time can
 be edited in the input box.
 
 METHODS
+=======
 
 - getDate(): Returns the parsed Date objected represented by whatever
 is in the input box. Returns null if it doesn't parse.
@@ -42,6 +46,7 @@ is in the input box. Returns null if it doesn't parse.
 - setMaximumDate(date): Sets the maximum selectable date.
 
 DESCRIPTION
+===========
 
 This class extends YUI3 with a date picker widget, that is able to
 take an existing form input field and generate a button next to it that
