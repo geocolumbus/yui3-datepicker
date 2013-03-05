@@ -1,4 +1,4 @@
-YUI.add("datepicker", function (Y) {
+YUI.add("gallery-datepicker", function (Y) {
 
 Y.DatePicker = function (args) {
     this.args = args;
