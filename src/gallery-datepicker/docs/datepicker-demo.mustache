@@ -18,7 +18,7 @@ YUI({gallery: "gallery-2013.03.06-21-07"}).use("gallery-datepicker", function (Y
 <label for="date">Date:</label><input name="date" id="date" value="1985-06-08"/>
 
 <script>
-YUI().use("gallery-datepicker", function (Y) {
+YUI({gallery: "gallery-2013.03.06-21-07"}).use("gallery-datepicker", function (Y) {
     new Y.DatePicker({
         input: "#date", btnContent: '<img src="calendar.png"/>'});
 });
