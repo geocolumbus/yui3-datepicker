@@ -1,5 +1,3 @@
-YUI.add("gallery-datepicker", function (Y) {
-
 Y.DatePicker = function (args) {
     this.args = args;
     this.format = "%Y-%m-%d";
@@ -165,6 +163,4 @@ Y.DatePicker.prototype.hideContainer = function () {
     this.overlay.setStyle("display", "none");
     this.container.setStyle("display", "none");
 };
-
-}, "1.0", {requires: ["calendar", "node", "datatype-date"]});
 
