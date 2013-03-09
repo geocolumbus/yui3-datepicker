@@ -1,7 +1,7 @@
 <label for="date">Date:</label><input name="date" id="date" value="1985-06-08"/>
 
 <script>
-YUI({comboBase: "http://10.1.4.65/lab/yui3/combo.cgi?", filter: "raw", gallery: "gallery-2013.03.06-21-07"}).use("gallery-datepicker", function (Y) {
+YUI({gallery: "gallery-2013.03.06-21-07"}).use("gallery-datepicker", function (Y) {
     new Y.DatePicker({input: "#date"});
 });
 </script>
